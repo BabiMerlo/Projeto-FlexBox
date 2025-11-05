@@ -1,0 +1,75 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #ffb3b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px;
+    background: #ffb3b3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #e85a90;
+    transition-duration: 0.5s;
+
+}
+
+.contatos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contatos li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #ffb3b3;
+    font-weight: bold;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+    background: #e85a90;
+    transition-duration: 0.5s;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;      
+    left: 0;        
+    width: 100%;     
+    background: #ffb3b3;
+    text-align: center;
+    padding: 10px;
+   
+}
